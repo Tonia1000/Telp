@@ -1,6 +1,5 @@
 // *GABRIEL* 1 - criar um laço que crie com asterisco uma arvore de natal
-//  *MAURÍCIO* 2 - Criar uma função que converta segundos para minutos e segundos.
-// Ex: 80seg = 1min e 20seg
+// *MAURÍCIO* 2 - Criar uma função que converta segundos para minutos e segundos. Ex: 80seg = 1min e 20seg
 // *VINICIUS* 3 - Criar uma função que converta anos para minutos e segundos.
 // *STHEFANY* 4 - crie uma função que some duas notas
 // *ALEXANDRE* 5 - Criar uma função que faça média entre notas
