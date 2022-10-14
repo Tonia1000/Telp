@@ -8,11 +8,13 @@ func main() {
 }
 
 func media() {
-	op := ""
+	op := 0
+	c := ""
 	n1 := 0
 	n2 := 0
 	result := 0
-	fmt.Printf("Digite a operação desejada sem acento: ")
+	fmt.Printf("Digite a operação desejada: \n")
+	fmt.Printf(" 1. Somar \n 2. Subtrair \n 3. Dividir \n 4. Multiplicar")
 	fmt.Scan(&op)
 
 	fmt.Printf("Digite o primeiro numero: ")
@@ -20,20 +22,28 @@ func media() {
 	fmt.Printf("Digite o segundo numero: ")
 	fmt.Scan(&n2)
 
-	if op == "soma" {
+	if op == 1{
 		result = n1+n2
+		c == "Somar"
 
 	}
-	if op == "divisao"{
-		result = n1/n2
+	if op == 2{
+		result = n1- 
+		c == "Subtrair"
 
 	}
-	if op == "multiplicacao"{
+	if op == 3{
+		result == n1/n2
+		c == "Dividir"
+
+	}
+	if op == 4{
 		result == n1*n2
-
+		c == "Multiplicar"
+		
 	}
-
-	fmt.Printf("A media das %d notas é igual a %d.\n", n, m)
+			
+	fmt.Printf("Ao %d, os numeros %d e %d, temos como resultado %d. \n", op, n1, n2, result)
 }
 
 // https://go.dev/play/
