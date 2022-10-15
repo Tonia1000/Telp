@@ -17,6 +17,4 @@ func conversao() {
 
 	fmt.Printf("Ao converter %d anos, temos %d minutos.\n", an, min)
 	fmt.Printf("Ao converter %d anos, temos %d segundos.", an, seg)
-
-	fmt.Println(seg)
 }
