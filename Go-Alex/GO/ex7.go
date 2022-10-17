@@ -1,5 +1,4 @@
 // *ANA* 7 - Crie uma função que receba 10 números, faça a média e mostre o maior número
-
 package main
 
 import "fmt"

@@ -6,16 +6,9 @@ import (
 )
 
 func main() {
-	conversao()
+	arv()
 }
 
-func conversao() {
-	min := 0
-
-	fmt.Printf("Digite a quantidade de minutos que deseja converter: ")
-	fmt.Scan(&min)
-
-	conv := min * 60
-
-	fmt.Printf("Ao converter %d minutos, temos %d segundos.", min, conv)
+func arv() {
+	
 }
