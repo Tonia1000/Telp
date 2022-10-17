@@ -14,7 +14,8 @@
 // *GEOVANY* 14 - crie uma função que calcula o IMC
 // *JOAO* 15 - Faça um programa que mostra na tela os número
 // de 1 a 100 e print em uma matriz quais deles sao numero de Ouro ?
-// *PROF ALEX* 16 - Escrever algoritmo em Go que receba a data de nascimento do usuário como entrada, e retorne o dia da semana que o usuário nasceu.
+// *PROF ALEX* 16 - Escrever algoritmo em Go que receba a data de nascimento do usuário como entrada, 
+// e retorne o dia da semana que o usuário nasceu.
 // *KARLA* 17 - Escrever uma lista de nomes que retorne em ordem alfabética
 // *DANIEL* 18 - A Cifra de César é a técnica mais simples usada pela criptografia. Usada por Júlio César para
 // a transmissão de mensagens secretas,
