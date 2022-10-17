@@ -1,4 +1,4 @@
-// *GABRIEL* 1 - criar um laço que crie com asterisco uma arvore de natal
+// *CAROLINE* 10 - uma função para dizer se o numero inserido é primo ou n
 package main
 
 import (
