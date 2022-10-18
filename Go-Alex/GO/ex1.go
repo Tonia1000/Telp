@@ -46,11 +46,11 @@ func main() {
 		}
 	}
 
-	imprimeArvore(matriz)
+	arv(matriz)
 
 }
 
-func imprimeArvore(matriz [10][7]string) {
+func arv(matriz [10][7]string) {
 	for i := 0; i < 10; i++ {
 		fmt.Println()
 		for j := 0; j < 7; j++ {
