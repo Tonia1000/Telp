@@ -4,6 +4,7 @@ package main
 
 import (
 	"fmt"
+	"time"
 )
 
 func main() {
@@ -11,5 +12,39 @@ func main() {
 }
 
 func dia() {
-	
+	var d int
+	var m int
+	var a int
+
+	fmt.Println("Digite sua data de nascimento:")
+	fmt.Println("\nDia: ")
+	fmt.Scan(&d)
+	fmt.Println("\nMes: ")
+	fmt.Scan(&m)
+	fmt.Println("\nAno: ")
+	fmt.Scan(&a)
+
+	// d = 27
+	// m = 8
+	// a = 1997
+
+	dn := time.Date(a, time.Month(m), d, 00, 00, 00, 00, time.Local)
+	fmt.Println("\n\nO dia da semana que voce nasceu foi ")
+
+	if dn.Weekday().String() == "Monday" {
+		fmt.Println("uma Segunda-feira")
+	} else if dn.Weekday().String() == "Tuesday" {
+		fmt.Println("uma Terça-feira")
+	} else if dn.Weekday().String() == "Wednesday" {
+		fmt.Println("uma Quarta-feira")
+	} else if dn.Weekday().String() == "Thursday" {
+		fmt.Println("uma Quinta-feira")
+	} else if dn.Weekday().String() == "Friday" {
+		fmt.Println("uma Sexta-feira")
+	} else if dn.Weekday().String() == "Saturday" {
+		fmt.Println("um Sábado")
+	} else if dn.Weekday().String() == "Sunday" {
+		fmt.Printf("um Domingo")
+	}
+
 }
