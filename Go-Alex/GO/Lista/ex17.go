@@ -13,6 +13,14 @@ func main() {
 func alf() {
 	list := []string{"José", "Beatriz", "Vivian", "Maria", "Nicolas", "Adalberto"}
 
+	// for i:=0; i<5; i++{
+	// 	p := string ""
+	// 	fmt.Printf("\n- ")
+	// 	fmt.Scan("%s", p)
+
+	// 	list[i] = p
+	// }
+
 	sort.Strings(list)
 	fmt.Printf("Em ordem alfabética: \n %s", list)
 
