@@ -14,7 +14,7 @@ func alf() {
 	list := []string{"José", "Beatriz", "Vivian", "Maria", "Nicolas", "Adalberto"}
 
 	// for i:=0; i<5; i++{
-	// 	p := string ""
+	// 	p := ""
 	// 	fmt.Printf("\n- ")
 	// 	fmt.Scan("%s", p)
 
