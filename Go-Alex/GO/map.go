@@ -14,6 +14,12 @@ func test_map() {
 	nota["Mauricio"] = 10.0
 	nota["Sthefany"] = 10.0
 
+	// deleta a nota de posição Sthefany
+	delete(nota, "Sthefany")
+
+	// atualiza a nota de posição Alex
+	nota["Alex"] = 6.0
+
 	fmt.Println(nota)
 
 }
