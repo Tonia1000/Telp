@@ -9,5 +9,6 @@ func main() {
 }
 
 func flu() {
+	var a [5]int8
 
 }

@@ -14,9 +14,13 @@ func media() {
 	var array [99]float64
 
 	for i := 0; i < 99; i++ {
-		m := m + i
+		v := v + i
 
 	}
+
+	m = v/99
+
+
 
 	fmt.Printf(m)
 
