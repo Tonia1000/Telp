@@ -1,3 +1,4 @@
+// 1/10 escrever um algoritmo em go usando array que calcule a media simples de 99 valores pontos flutuantes
 package main
 
 import (

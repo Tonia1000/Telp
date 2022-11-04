@@ -1,5 +1,4 @@
 // *GABRIEL* 1 - criar um laço que crie com asterisco uma arvore de natal
-// *GABRIEL* 1 - criar um laço que crie com asterisco uma arvore de natal
 package main
 
 import (
