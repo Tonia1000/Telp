@@ -19,8 +19,8 @@ func mem() {
 
 	fmt.Println(s, len(s), cap(s))
 
-	sort.double(list)
+	sort.Ints(s)
 	// imprimir a posição na memoria
-	fmt.Println("\n\n", &s[0], &s2[0])
+	fmt.Println("\n\n", &s[0])
 
 }
