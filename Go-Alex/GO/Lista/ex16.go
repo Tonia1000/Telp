@@ -1,4 +1,4 @@
-// *PROF ALEX* 16 - Escrever algoritmo em Go que receba a data de nascimento do usuário como entrada, 
+// *PROF ALEX* 16 - Escrever algoritmo em Go que receba a data de nascimento do usuário como entrada,
 // e retorne o dia da semana que o usuário nasceu.
 package main
 
@@ -32,19 +32,19 @@ func dia() {
 	fmt.Println("\n\nO dia da semana que voce nasceu foi ")
 
 	if dn.Weekday().String() == "Monday" {
-		fmt.Println("uma Segunda-feira")
+		fmt.Println("Segunda-feira")
 	} else if dn.Weekday().String() == "Tuesday" {
-		fmt.Println("uma Terça-feira")
+		fmt.Println("Terça-feira")
 	} else if dn.Weekday().String() == "Wednesday" {
-		fmt.Println("uma Quarta-feira")
+		fmt.Println("Quarta-feira")
 	} else if dn.Weekday().String() == "Thursday" {
-		fmt.Println("uma Quinta-feira")
+		fmt.Println("Quinta-feira")
 	} else if dn.Weekday().String() == "Friday" {
-		fmt.Println("uma Sexta-feira")
+		fmt.Println("Sexta-feira")
 	} else if dn.Weekday().String() == "Saturday" {
-		fmt.Println("um Sábado")
+		fmt.Println("Sábado")
 	} else if dn.Weekday().String() == "Sunday" {
-		fmt.Printf("um Domingo")
+		fmt.Printf("Domingo")
 	}
 
 }

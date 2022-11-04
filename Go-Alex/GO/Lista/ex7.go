@@ -11,15 +11,14 @@ func maior() {
 	n := 0
 	x := 0
 
-	for i := 0; i<10; i++{
+	for i := 0; i < 10; i++ {
 		fmt.Printf("Digite um numero: ")
 		fmt.Scan(&n)
-		if n > x{
-			x = n;
+		if n > x {
+			x = n
 		}
 
 	}
 
-
-	fmt.Printf("O maior numero digitado foi %d", n)
+	fmt.Printf("O maior numero digitado foi %d\n", x)
 }

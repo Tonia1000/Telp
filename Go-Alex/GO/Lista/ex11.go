@@ -10,13 +10,13 @@ func main() {
 }
 
 func ctemp() {
-	var f float64 = 0
-	var c float64 = 0
+	var f float64
+	var c float64
 
 	fmt.Printf("Digite a temperatura a ser convertida: ")
-	fmt.Scan("%f", &c)
+	fmt.Scanf("%f", &c)
 
 	f = (c * 1.8) + 32
 
-	fmt.Printf("%2f em Celsius equivale a %2f Fahrenheit.", c, f)
+	fmt.Printf("\n%2f em Celsius equivale a %2f Fahrenheit.\n", c, f)
 }

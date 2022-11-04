@@ -8,7 +8,8 @@ func main() {
 }
 
 func vogal() {
-	p := [""]
+	var p []string
+
 	l := ""
 	n := 0
 
@@ -16,17 +17,17 @@ func vogal() {
 	fmt.Scan(&n)
 
 	fmt.Printf("Digite a palavra letra por letra")
-	for i := 0; i<n; i++{
+	for i := 0; i < n; i++ {
 		fmt.Scan(&l)
 
-		if  l != "a"{
-			if l != "e"{
-				if l != "i"{
-					if l != "o"{
-						if l != "u"{
+		if l != "a" {
+			if l != "e" {
+				if l != "i" {
+					if l != "o" {
+						if l != "u" {
 							p[i] = l
 
-						}
+						}0
 					}
 				}
 			}
@@ -34,41 +35,5 @@ func vogal() {
 
 	}
 
-	fmt.Printf("A palavra digitada sem vogais é %s",)
+	fmt.Printf("A palavra digitada sem vogais é %s", p)
 }
-
-// package main
-
-// import (
-// 	"fmt"
-// 	"strings"
-// )
-
-// func filter(data []string, f func(string) bool) []string {
-
-// 	fltd := make([]string, 0)
-
-// 	for _, e := range data {
-
-// 		if f(e) {
-// 			fltd = append(fltd, e)
-// 		}
-// 	}
-
-// 	return fltd
-// }
-
-// func main() {
-
-// 	words := []string{"war", "water", "cup", "tree", "storm"}
-
-// 	p := "w"
-
-// 	res := filter(words, func(s string) bool {
-
-// 		return strings.HasPrefix(s, p)
-// 	})
-
-// 	fmt.Println(res)
-
-// }

@@ -14,9 +14,9 @@ func real_dolar() {
 	var d float64 = 0
 
 	fmt.Printf("Digite o valor a ser convertido: ")
-	fmt.Scan("%f", &r)
- 
+	fmt.Scanf("%f", &r)
+
 	d = r * 5.28
 
-	fmt.Printf("%2f reais equivale a %2f dolares.", r, d)
+	fmt.Printf("%2f reais equivale a %2f dolares.\n", r, d)
 }

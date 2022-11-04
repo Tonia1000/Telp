@@ -21,8 +21,9 @@ func alf() {
 	// 	list[i] = p
 	// }
 
-	sort.Strings(list)
-	fmt.Printf("Em ordem alfabética: \n %s", list)
+	fmt.Printf("Lista de nomes original: \n%s\n", list)
 
-	
+	sort.Strings(list)
+	fmt.Printf("Em ordem alfabética: \n%s\n", list)
+
 }

@@ -24,5 +24,5 @@ func mult() {
 
 	result = n1 * n2 * n3
 
-	fmt.Printf("A multiplicacao entre os numero %d, %d e %d e igual a %d.", n1, n2, n3, result)
+	fmt.Printf("A multiplicacao entre os numero %d, %d e %d e igual a %d.\n", n1, n2, n3, result)
 }

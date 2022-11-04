@@ -12,6 +12,7 @@ func calc() {
 	n1 := 0
 	n2 := 0
 	result := 0
+	x := ""
 	fmt.Printf("Digite a operação desejada: \n")
 	fmt.Printf(" 1. Somar \n 2. Subtrair \n 3. Dividir \n 4. Multiplicar\n")
 	fmt.Scan(&op)
@@ -21,19 +22,23 @@ func calc() {
 	fmt.Printf("Digite o segundo numero: \n")
 	fmt.Scan(&n2)
 
-	if op == 1{
-		result = n1+n2
+	if op == 1 {
+		result = n1 + n2
+		x = "Somar"
 
-	}else if op == 2{
-		result = n1-n2
+	} else if op == 2 {
+		result = n1 - n2
+		x = "Subtrair"
 
-	}else if op == 3{
-		result = n1/n2
+	} else if op == 3 {
+		result = n1 / n2
+		x = "Dividir"
 
-	}else if op == 4{
-		result = n1*n2
-		
+	} else if op == 4 {
+		result = n1 * n2
+		x = "Multiplicar"
+
 	}
-			
-	fmt.Printf("O resultado da operacao entre os numeros %d e %d e %d. \n", n1, n2, result)
+
+	fmt.Printf("Ao %s os numeros %d, %d temos como resultado %d. \n", x, n1, n2, result)
 }

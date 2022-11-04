@@ -11,7 +11,7 @@ func main() {
 }
 
 func ouro() {
-	var matriz[10][9] int
+	var matriz [10][9]int
 	n := 1
 	for i := 0; i < 10; i++ {
 		for j := 0; j < 9; j++ {
@@ -31,6 +31,6 @@ func ouro() {
 		ou = append(ou, (ou[i] + ou[i+1]))
 	}
 
-	fmt.Printf("\nOs números de ouro no intervalo de 1 a 100 são: %d", ou)
+	fmt.Printf("\nOs números de ouro no intervalo de 1 a 100 são: %d\n", ou)
 
 }

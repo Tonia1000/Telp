@@ -15,6 +15,5 @@ func conversao() {
 	min := an * 525960
 	seg := min * 60
 
-	fmt.Printf("Ao converter %d anos, temos %d minutos.\n", an, min)
-	fmt.Printf("Ao converter %d anos, temos %d segundos.", an, seg)
+	fmt.Printf("Ao converter %d anos, temos %d minutos ou temos %d segundos.\n", seg, an, min)
 }

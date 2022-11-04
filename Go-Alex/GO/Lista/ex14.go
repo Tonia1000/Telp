@@ -10,15 +10,15 @@ func main() {
 }
 
 func imc() {
-	var a float64 = 0
-	var p float64 = 0
+	var a float64
+	var p float64
 
 	fmt.Printf("Digite sua altura em metros: \n")
-	fmt.Scan("%f", &p)
+	fmt.Scanf("%f", &a)
 	fmt.Printf("Digite seu peso em kg: \n")
-	fmt.Scan("%f", &a)
+	fmt.Scanf("%f", &p)
 
 	imc := p / (a * a)
 
-	fmt.Printf("Seu IMC e %2f.", imc)
+	fmt.Printf("Seu IMC e %2f.\n", imc)
 }
